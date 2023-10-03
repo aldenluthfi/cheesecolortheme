@@ -3,6 +3,17 @@
   "displayName": "Cheesewaffle's Color Theme",
   "description": "Color Theme for Visual Studio Code",
   "version": "0.0.1",
+  "publisher": "Cheesewaffle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldenluthfi/cheesecolortheme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "color",
+    "cheesewaffle"
+  ],
   "engines": {
     "vscode": "^1.82.0"
   },
