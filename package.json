@@ -26,17 +26,17 @@
       {
         "label": "Cheesewaffle Yellow",
         "uiTheme": "vs-dark",
-        "path": "./themes/CheeseColorTheme-color-theme-yellow.json"
+        "path": "./themes/cheesewaffle-color-theme-yellow.json"
       },
       {
         "label": "Cheesewaffle Red",
         "uiTheme": "vs-dark",
-        "path": "./themes/CheeseColorTheme-color-theme-red.json"
+        "path": "./themes/cheesewaffle-color-theme-red.json"
       },
       {
         "label": "Cheesewaffle Blue",
         "uiTheme": "vs-dark",
-        "path": "./themes/CheeseColorTheme-color-theme-blue.json"
+        "path": "./themes/cheesewaffle-color-theme-blue.json"
       }
     ]
   }
