@@ -1,0 +1,21 @@
+{
+  "name": "cheesewaffle-s-color-theme",
+  "displayName": "Cheesewaffle's Color Theme",
+  "description": "Color Theme for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CheeseColorTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CheeseColorTheme-color-theme.json"
+      }
+    ]
+  }
+}
