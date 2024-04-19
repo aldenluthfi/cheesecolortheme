@@ -1,0 +1,45 @@
+{
+  "name": "cheesewaffle-color-theme",
+  "displayName": "Cheesewaffle's Color Theme",
+  "description": "Color Theme for Visual Studio Code",
+  "version": "0.0.0",
+  "publisher": "Cheesewaffle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldenluthfi/cheesecolortheme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "color"
+  ],
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cheesewaffle Yellow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cheesewaffle-yellow-color-theme.json"
+      },
+      {
+        "label": "Cheesewaffle Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cheesewaffle-red-color-theme.json"
+      },
+      {
+        "label": "Cheesewaffle Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cheesewaffle-blue-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.24.0"
+  }
+}

@@ -1,0 +1,63 @@
+name: Publish
+on: push
+permissions:
+    contents: write
+
+jobs:
+    publish-patch:
+        name: Publish a patch
+        runs-on: ubuntu-latest
+        if: contains(github.event.head_commit.message, 'Patch')
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                node-version: 20
+            - name: Install dependencies
+              run: npm i
+            - uses: lannonbr/vsce-action@3.0.0
+              with:
+                args: "publish patch -p ${{ secrets.ACCESS_TOKEN }}"
+            - name: Push changes
+              run: |
+                git add .
+                git commit -m "Updated"
+                git push
+    publish-minor:
+        name: Publish a minor release
+        runs-on: ubuntu-latest
+        if: contains(github.event.head_commit.message, 'Minor')
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                node-version: 20
+            - name: Install dependencies
+              run: npm i
+            - uses: lannonbr/vsce-action@3.0.0
+              with:
+                args: "publish minor -p ${{ secrets.ACCESS_TOKEN }}"
+            - name: Push changes
+              run: |
+                git add .
+                git commit -m "Updated"
+                git push
+    publish-major:
+        name: Publish a major release
+        runs-on: ubuntu-latest
+        if: contains(github.event.head_commit.message, 'Major')
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                node-version: 20
+            - name: Install dependencies
+              run: npm i
+            - uses: lannonbr/vsce-action@3.0.0
+              with:
+                args: "publish major -p ${{ secrets.ACCESS_TOKEN }}"
+            - name: Push changes
+              run: |
+                git add .
+                git commit -m "Updated"
+                git push
