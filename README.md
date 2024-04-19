@@ -1,2 +1,2 @@
 # Cheesewaffle's Color Theme
-Cheesewaffle's Color Theme for Visual Studio Code
+Cheesewaffle's Dark Color Theme for Visual Studio Code
