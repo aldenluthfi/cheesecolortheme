@@ -2,7 +2,7 @@
   "name": "cheesewaffle-color-theme",
   "displayName": "Cheesewaffle's Color Theme",
   "description": "Color Theme for Visual Studio Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Cheesewaffle",
   "repository": {
     "type": "git",
