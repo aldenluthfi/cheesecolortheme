@@ -3,7 +3,6 @@
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
-    "scrollbar.shadow": "#000000",
     "listFilterWidget.outline": "#00000000",
     "titleBar.border": "#00000000",
     "menu.selectionBorder": "#00000000",
@@ -44,6 +43,7 @@
     "editorWarning.background": "#00000000",
     "walkThrough.embeddedEditorBackground": "#00000050",
     "widget.shadow": "#00000050",
+    "scrollbar.shadow": "#00000050",
     "activityBar.background": "#13161d",
     "sideBar.background": "#13161d",
     "titleBar.activeBackground": "#13161d",
