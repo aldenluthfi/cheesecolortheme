@@ -235,7 +235,7 @@
     "tab.inactiveForeground": "#FAFAFA90",
     "panelTitle.inactiveForeground": "#FAFAFA90",
     "terminal.ansiBlack": "#000000",
-    "terminal.ansiBrightBlack": "#404040",
+    "terminal.ansiBrightBlack": "#3F3F46",
     "terminal.ansiBlue": "#1C4ED8",
     "terminal.ansiBrightBlue": "#3C82F6",
     "terminal.ansiCyan": "#0A91B1",
@@ -248,8 +248,8 @@
     "terminal.ansiBrightYellow": "#FFEF8A",
     "terminal.ansiMagenta": "#C125D3",
     "terminal.ansiBrightMagenta": "#E979F9",
-    "terminal.ansiWhite": "#D4D4D4",
-    "terminal.ansiBrightWhite": "#FAFAFA",
+    "terminal.ansiWhite": "#D4D4D8",
+    "terminal.ansiBrightWhite": "#ffffff",
   },
   "tokenColors": [
     {
